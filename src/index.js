@@ -1,15 +1,15 @@
 import _ from 'lodash';
 
 _.times(10, () => {
-  const objectOne =  {
+  const objectOne = {
     ok: 'what',
-    taco: 'asada'
+    monkey: 'banana',
   };
 
-  const objectTwo =  {
+  const objectTwo = {
     pizza: 'what',
     ok: 'nah',
-    ...objectOne
+    ...objectOne,
   };
 
   console.log('suuup');
